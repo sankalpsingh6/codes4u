@@ -1,0 +1,6 @@
+Algorithm Basics()
+
+//Problem Description : To Print 'Hello User! Welcome To Code4U'
+//Output : Hello User! Welcome To Code4U
+
+write("Hello User! Welcome To Code4U")

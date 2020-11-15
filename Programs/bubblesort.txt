@@ -1,0 +1,23 @@
+Algorithm BubbleSort()
+
+//Problem Description : To Sort An List Using Bubble Sort
+//Input : a[],n
+//Output : Sorted List
+
+read(n)
+read(a[])
+
+for i <- 1 to n do i <- i + 1
+{
+for j <- 1 to n - i - 1 do j <- j + 1
+{
+if a[j] > a[j + 1]
+{
+temp <- a[j]
+a[j] <- a[j + 1]
+a[j + 1] <- temp
+}
+}
+}
+
+write(a[])  
